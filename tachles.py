@@ -5,7 +5,7 @@ import os
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
-tf.compat.v1.logging(tf.logging.ERROR)
+tf.compat.v1.logging(tf.compat.v1.logging.ERROR)
 
 
 import keras
